@@ -6,12 +6,24 @@ using System.Threading.Tasks;
 
 namespace SectCryptLib
 {
-    class CryptMessage
+    public class CryptMessage
     {
         // declaration
         private string strMessage;
 
-        
+        /// <summary>
+        /// Create new CryptMessage with string already given
+        /// </summary>
+        /// <param name="message">String Message</param>
+        public CryptMessage(String message)
+        {
+            this.set(message);
+        }
+
+        /// <summary>
+        /// Create empty CryptMessage
+        /// </summary>
+        public CryptMessage() { }
 
         /// <summary>
         /// Get the string

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SectCryptLib
 {
-    public class Encrypt
+    class Encrypt
     {
     }
 }
