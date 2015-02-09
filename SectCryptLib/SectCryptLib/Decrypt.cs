@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sect_CryptLib
+namespace SectCryptLib
 {
-    class CryptMessage
+    class Decrypt
     {
     }
 }
