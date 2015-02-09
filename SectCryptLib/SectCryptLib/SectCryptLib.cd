@@ -1,28 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="SectCryptLib.CryptKey">
-    <Position X="4" Y="1.25" Width="1.5" />
+    <Position X="3.5" Y="1" Width="2.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAQAQAAAAAAAAACAAAAAAAAAAAA=</HashCode>
       <FileName>CryptKey.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="SectCryptLib.CryptMessage">
-    <Position X="2.25" Y="1.25" Width="1.5" />
+    <Position X="0.75" Y="1" Width="2.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAQAQAAAAAAABAAAAAAAAAAAAAA=</HashCode>
       <FileName>CryptMessage.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="SectCryptLib.Decryptor">
-    <Position X="5.75" Y="1.25" Width="1.5" />
+    <Position X="6" Y="1" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Decryptor.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="SectCryptLib.Encryptor" Collapsed="true">
-    <Position X="5.75" Y="2.25" Width="1.5" />
+  <Class Name="SectCryptLib.Encryptor">
+    <Position X="6" Y="2" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Encryptor.cs</FileName>
