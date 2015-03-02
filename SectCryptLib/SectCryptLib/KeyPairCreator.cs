@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace SectCryptLib
 {
-    class KeyPairCreator
+    public class KeyPairCreator
     {
         // declaration
         private CryptKey PrivateKey;
         private CryptKey PublicKey;
+        Random rnd = new Random();
 
         /// <summary>
         /// generate the keys to get them later
@@ -21,29 +22,36 @@ namespace SectCryptLib
             this.PrivateKey = new CryptKey();
             this.PublicKey = new CryptKey();
 
+            int p = this.getPrime(10000, 999999999);
+            int q = this.getPrime(10000, 999999999);
 
+            long n = p * q;
+
+
+
+            Console.WriteLine(p+" x "+q+" = "+n);
+            Console.ReadLine();
         }
 
-        public long getPrime(int from, int to)
+        private int getPrime(int from, int to)
         {
-            Random rnd = new Random();
             int maybePrime;
 
             do
             {
-                maybePrime = rnd.Next(from, to);
+                maybePrime = this.rnd.Next(from, to);
             } while (!this.isPrime(maybePrime));
 
             return maybePrime;            
         }
 
-        public bool isPrime(int number)
+        private bool isPrime(int number)
         {
             for (int i = 2; i <= Math.Sqrt(number); i++)
             {
-                if (number % i == 0) return true;
+                if (number % i == 0) return false;
             }
-            return false;
+            return true;
         }
     }
 }
