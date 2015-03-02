@@ -6,9 +6,12 @@ using System.Threading.Tasks;
 
 namespace SectCryptLib
 {
-    class Decryptor
+    static class Decryptor
     {
+        static string decrypt(String strCryptMessage, CryptKey key)
+        {
 
-
+            return "";
+        }
     }
 }

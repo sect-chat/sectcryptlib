@@ -12,20 +12,6 @@ namespace SectCryptLib
         private string strKey;
 
         /// <summary>
-        /// Create new CryptKey with key already given
-        /// </summary>
-        /// <param name="message">String Key</param>
-        public CryptKey(String key)
-        {
-            this.set(key);
-        }
-
-        /// <summary>
-        /// Create empty CryptKey
-        /// </summary>
-        public CryptKey() { }
-
-        /// <summary>
         /// Get the key
         /// </summary>
         /// <returns>String Key</returns>

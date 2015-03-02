@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace SectCryptLib
 {
-    class Encryptor
+    static class Encryptor
     {
+        static String encrypt(String strPlainMessage, CryptKey key)
+        {
+            return null;
+        }
     }
 }

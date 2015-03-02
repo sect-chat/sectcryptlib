@@ -9,16 +9,8 @@ namespace SectCryptLib
     public class CryptMessage
     {
         // declaration
-        private string strMessage;
-
-        /// <summary>
-        /// Create new CryptMessage with string already given
-        /// </summary>
-        /// <param name="message">String Message</param>
-        public CryptMessage(String message)
-        {
-            this.set(message);
-        }
+        private string strPlainMessage;
+        private string strCryptMessage;
 
         /// <summary>
         /// Create empty CryptMessage
@@ -26,21 +18,35 @@ namespace SectCryptLib
         public CryptMessage() { }
 
         /// <summary>
-        /// Get the string
+        /// Get the plain string
         /// </summary>
         /// <returns>String Message</returns>
-        public string get()
+        public string getPlain()
         {
-            return this.strMessage;
+            return this.strPlainMessage;
         }
 
         /// <summary>
-        /// Set the string
+        /// Set the plain string
         /// </summary>
         /// <param name="message">String Message</param>
-        public void set(String message)
+        public void setPlain(String strMessage)
         {
-            this.strMessage = message;
+            this.strPlainMessage = strMessage;
+        }
+
+        /// <summary>
+        /// Get the encrypted string
+        /// </summary>
+        /// <returns>String Message</returns>
+        public string getCrypt()
+        {
+            return this.strCryptMessage;
+        }
+
+        public void setCrypt(String strMessage)
+        {
+            this.strCryptMessage = strMessage;
         }
     }
 }
