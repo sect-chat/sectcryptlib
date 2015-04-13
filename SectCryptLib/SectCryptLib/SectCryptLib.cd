@@ -10,21 +10,21 @@
   <Class Name="SectCryptLib.CryptMessage">
     <Position X="0.75" Y="1" Width="2.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAQAQAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>IAACIAAAAAAAAAAAAAAAAAAABAAAAAAAAAABAAAAAAI=</HashCode>
       <FileName>CryptMessage.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="SectCryptLib.Decryptor">
     <Position X="6" Y="1" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Decryptor.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="SectCryptLib.Encryptor">
-    <Position X="6" Y="2" Width="1.5" />
+    <Position X="6" Y="2.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Encryptor.cs</FileName>
     </TypeIdentifier>
   </Class>
